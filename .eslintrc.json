@@ -5,6 +5,7 @@
         "node": true
     },
     "extends": "airbnb",
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -19,6 +20,7 @@
     ],
     
     "rules": {
+        "strict": 0,
         "no-unused-vars": ["error", { "varsIgnorePattern": "styles"}],
         "react/jsx-uses-vars": "error",
         "react/jsx-uses-react": "error",
